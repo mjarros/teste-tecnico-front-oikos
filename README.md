@@ -1,6 +1,6 @@
 # Teste Tecnico Front-end - Oikos
 
-Ola, 
+Olá, 
 
 Para utilizar este desenvolvimento, primeiro é preciso clonar o repositório e instalar as dependências do projeto, digitando “npm i” no CLI. Após instaladas as dependências, digitar “npm start” no CLI.
 
