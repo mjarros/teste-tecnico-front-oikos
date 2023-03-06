@@ -1,5 +1,4 @@
-# teste-tecnico-front-oikos
-Teste Tecnico Front-end - Oikos
+# Teste Tecnico Front-end - Oikos
 
 Ola, 
 
