@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+:root {
+  --backgroundVar1: #212529;
+  --backgroundVar2: white;
+  --backgroundVar3: #f8f9fa;
+
+  --textColorVar1: #9ec5fe;
+  --textColorVar2: #212529;
+  --textColorVar3: #495057;
+  --textColorVar4: white;
+  --textColorVar5: #0a58ca;
+  --textColorVar6: #f8f9fa;
+  --textColorVar7: #e9ecef;
+  --textColorVar8: #dc3545;
+  --textColorVar9: #45484b;
+  --textColorVar10: #adadad;
+  --textColorVar11: #858484;
+}

@@ -1,0 +1,165 @@
+.login-div-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  height: 100%;
+
+  background-color: var(--backgroundVar2);
+
+  .login-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+
+    gap: 38px;
+
+    .login-header {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      gap: 9px;
+
+      width: 100%;
+
+      h2 {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+
+        color: var(--textColorVar2);
+      }
+
+      h3 {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        color: var(--textColorVar3);
+      }
+    }
+
+    .login-inputs-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 24px;
+
+      width: 100%;
+
+      input {
+        all: unset;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px solid #bebebe;
+
+        color: var(--textColorVar2);
+
+        padding: 14px;
+
+        border-radius: 4px;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+
+        height: 48px;
+        width: 100%;
+      }
+
+      button {
+        all: unset;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+
+        width: 100%;
+
+        background-color: #0d6efd;
+        color: white;
+
+        cursor: pointer;
+
+        height: 45px;
+        width: 100%;
+
+        border-radius: 4px;
+      }
+
+      .password-input {
+        width: 100%;
+        position: relative;
+
+        input {
+          all: unset;
+          box-sizing: border-box;
+
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          border: 1px solid #bebebe;
+
+          color: var(--textColorVar2);
+
+          padding: 14px;
+
+          border-radius: 4px;
+
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: 0em;
+
+          height: 48px;
+          width: 100%;
+        }
+
+        button {
+          all: unset;
+          box-sizing: border-box;
+          position: absolute;
+          cursor: pointer;
+
+          top: 0;
+          bottom: 0;
+          right: 10px;
+
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}

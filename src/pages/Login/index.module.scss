@@ -1,0 +1,33 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  .login-div-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+
+    gap: 10px;
+
+    background-color: var(--backgroundVar1);
+
+    p {
+      font-family: "Inter";
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 31px;
+      letter-spacing: 0em;
+
+      color: #9ec5fe;
+    }
+  }
+}
