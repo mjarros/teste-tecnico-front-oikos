@@ -1,4 +1,4 @@
-# Teste Tecnico Front-end - Oikos
+# Teste Técnico Front-end - Oikos
 
 Olá, 
 
